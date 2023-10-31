@@ -16,6 +16,7 @@ router.get('/', (req, res, next) => {
 // create your user in mongodb
 
 router.post('/signup', async (req, res) => {
+    console.log(req.body)
     const salt = bcrypt.genSaltSync(10)
     const passwordHash = bcrypt.hashSync(req.body.password, salt)
     console.log(passwordHash)
@@ -37,6 +38,7 @@ router.post('/signup', async (req, res) => {
 
 router.post('/login', async (req, res) => {
     const { email, password } = req.body
+    console.log(req.body)
     const potentialUser = await User.findOne({ email })
     if (potentialUser) {
         if (bcrypt.compareSync(password, potentialUser.passwordHash)) {
