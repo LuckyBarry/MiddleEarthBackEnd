@@ -9,28 +9,28 @@ const pokerEventSchema = new Schema(
             lowercase: true,
             trim: true
         },
-        Name: {
+        name: {
             type: String,
             required: [true, 'Pokervenue name is required.']
-        }
+        },
         games: {
             type: String,
-        }
+        },
         buyIn: {
             type: String,
         },
         capacity: {
             type: String,
-        }
+        },
         freeGrog: {
             type: String,
-        }
+        },
         firstPrize: {
             type: String,
         },
         image: {
             type: String,
-        }
+        },
 
         owner: {
             type: Schema.Types.ObjectId, ref: "User"
