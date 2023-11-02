@@ -1,30 +1,18 @@
 [
     {
-        "location": "Rivendell",
-        "name": "Elrond's Tranquil Poker Retreat",
-        "date": "somewhere last fall",
-        "reviewer": "Mathieu Saubin",
-        "review": "Splendid card decks, beautiful tables, service was magical and so was the staff, the second price I won was a Imac, but I gave that away as I don't like them one bit. Nevertheless a fantastic tournament, I'll come back next year!"
+        "reviewer": "6540d4c57b2f94ba6b927d82",
+        "review": "Splendid card decks, beautiful tables, service was magical and so was the staff, the second price I won was a Imac, but I gave that away as I don't like them one bit. Nevertheless a fantastic tournament, I'll come back next year!",
+        "event": "6542577a08b6ad2f2bb516ea"
     },
     {
-        "location": "The Shire",
-        "name": "Hobbiton Hold'em Haven",
-        "date": "every other weekend",
-        "reviewer": "Eric Coimbra",
-        "review": "My buddy Bilbo lives here, and we go here all the time, the Ales are great, and I love the music, the ceilings are a bit low, but that never stopped me from having a great night!"
+        "reviewer": "6540e445099a88c1d8d488e3",
+        "review": "My buddy Bilbo lives here, and we go here all the time, the Ales are great, and I love the music, the ceilings are a bit low, but that never stopped me from having a great night!",
+        "event": "6542577a08b6ad2f2bb516e9"
     },
     {
-        "location": "Mordor",
-        "name": "Elrond's Tranquil Poker Retreat",
-        "date": "couple of nights ago",
-        "reviewer": "Joshua George",
-        "review": "This was my first and last cashgame with Orcs EVER! Yes maybe I had one too many Apple-tini's, as I was disgusted by the free grog, but they were loud, obnoxious, and some of them were farting during the game! Yuck!"
-    },
-    {
-        "location": "test",
-        "name": "test",
-        "date": "test",
-        "reviewer": "test",
-        "review": "test"
+        "reviewer": "6541450b5ac8def122b9a38e",
+        "review": "This was my first and last cashgame with Orcs EVER! Yes maybe I had one too many Apple-tini's, as I was disgusted by the free grog, but they were loud, obnoxious, and some of them were farting during the game! Yuck!",
+        "event": "6542577a08b6ad2f2bb516e4"
     }
+    
 ]
