@@ -25,6 +25,8 @@ app.use("/auth", authRoutes);
 const pokerEventsRoutes = require("./routes/pokerEvents.routes")
 app.use("/", pokerEventsRoutes);
 
+const reviewRoutes = require("./routes/review.routes")
+app.use("/api/reviews", reviewRoutes)
 
 
 // ❗ To handle errors. Routes that don't exist or errors that you handle in specific routes
